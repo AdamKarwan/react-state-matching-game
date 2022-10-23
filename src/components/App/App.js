@@ -9,12 +9,13 @@ class App extends Component{
 
   constructor(props) {
     super(props);
-    this.state={}
-    this.state.numTiles = 36;
-    this.state.playing = false;
-    this.state.previousTileIndex = null;
-    this.state.tiles = [];
-    this.state.toBeCleared = null;
+    this.state = {
+      numTiles: 36,
+      playing: false,
+      previousTileIndex: null,
+      tiles: [],
+      toBeCleared: null
+    }
   }
 
   startGame(numTiles) {
